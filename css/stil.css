@@ -1,0 +1,124 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+/* AnaSayfa */
+nav{
+    position: fixed;
+    top: 0 left 0;
+    width: 100%;
+    height: 50px;
+    background-color: #0b88b6;
+    text-align: right;
+}
+
+nav a{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 15px 0 15px;
+    line-height: 50px; /*Menu yukseklıgı ıle aynı olmalıdır yukarıda height'a verilen deger ile.*/
+}
+
+.container{
+    width: 1140px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner img{
+    width: 1140px;
+    height: auto;
+}
+
+.online{
+    float: left;
+    width: 380px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.renk1{
+    background-color: #0694c9;
+}
+.renk2{
+    background-color: #0c88b7;
+}
+
+.temizle{/*Yazıların kaymasını engellıyor index.html'de kullanılan yelrere bak.*/
+    clear: both;
+}
+
+/* Hakkımızda */
+
+.left-img img{
+    width: 450p;
+    height: 275px;
+    float: left;
+}
+
+.content h2{
+    font-weight: bold;
+}
+.content p{
+    font-size: 1.2em;
+}
+
+.aciklamalar{
+    float: left;
+    width: 20%;
+    padding: 2%;
+}
+
+#kadromuz h2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.dr{
+    text-align: center;
+    width: 32%;
+    height: auto;
+    float: left;
+}
+
+.dr img{
+    width: 250px;
+    height: auto;
+}
+
+/* Bize Ulasın */
+
+#iletisim{
+    text-align: center;
+}
+
+#iletisim h2{
+    width: 1080px;
+    padding: 30px;
+    text-align: center;
+    background-color: #0694c9;
+    color: #fff;
+}
+
+.saglik{
+    font-size: 2em;
+}
+
+.formTasarimi{
+    width: 40%;
+    float: left;
+}
+
+.harita{
+    width: 60%;
+    float: right;
+}
+
